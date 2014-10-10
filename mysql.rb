@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'mysql2'
 
 class Mysql

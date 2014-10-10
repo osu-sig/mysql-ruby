@@ -1,0 +1,4 @@
+checkstyle.xml
+newdb.sql
+coverage/*
+.rvmrc

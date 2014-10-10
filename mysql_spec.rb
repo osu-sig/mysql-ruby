@@ -1,4 +1,9 @@
-require 'mysql'
+require_relative 'mysql'
+require 'simplecov'
+require 'simplecov-rcov'
+
+SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
+SimpleCov.start
 
 describe Mysql do
     db = Mysql.new

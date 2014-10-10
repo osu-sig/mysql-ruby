@@ -1,0 +1,139 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  Exclude:
+    - 'NaElement.rb'
+    - 'NaServer.rb'
+
+# Cop supports --auto-correct.
+Lint/StringConversionInInterpolation:
+  Enabled: true
+
+Lint/UnreachableCode:
+  Enabled: true
+
+# DO WE WANT THIS?????
+# Cop supports --auto-correct.
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/AlignParameters:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/BracesAroundHashParameters:
+  Enabled: true
+
+Style/CommentIndentation:
+  Enabled: true
+
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 100
+  AllowURI: true
+
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/SpaceBeforeBlockBraces:
+  Enabled: true
+
+# Configuration parameters: EnforcedStyle, SupportedStyles, EnforcedStyleForEmptyBraces, SpaceBeforeBlockParameters.
+Style/SpaceInsideBlockBraces:
+  Enabled: true
+  EnforcedStyleForEmptyBraces: false
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedHashRocketStyle, EnforcedColonStyle, EnforcedLastArgumentHashStyle, SupportedLastArgumentHashStyles.
+Style/AlignHash:
+  Enabled: true
+
+Style/For:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/HashSyntax:
+  Enabled: false
+  
+# Configuration parameters: MaxLineLength.
+Style/IfUnlessModifier:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/IndentationConsistency:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/IndentationWidth:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/MethodCallParentheses:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/MethodDefParentheses:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/NegatedIf:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/Not:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: AllowSafeAssignment.
+Style/ParenthesesAroundCondition:
+  Enabled: true
+  
+# Cop supports --auto-correct.
+# Configuration parameters: AllowMultipleReturnValues.
+Style/RedundantReturn:
+  Enabled: true
+  AllowMultipleReturnValues: true
+
+Style/SelfAssignment:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: AllowAsExpressionSeparator.
+Style/Semicolon:
+  Enabled: true
+  AllowAsExpressionSeparator: true
+
+# Cop supports --auto-correct.
+Style/SpaceAfterComma:
+  Enabled: true
+  
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/SpaceBeforeBlockBraces:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles, EnforcedStyleForEmptyBraces, SpaceBeforeBlockParameters.
+Style/SpaceInsideBlockBraces:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/SpaceInsideParens:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/Tab:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/TrailingWhitespace:
+  Enabled: true
+
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/VariableName:
+  Enabled: true
